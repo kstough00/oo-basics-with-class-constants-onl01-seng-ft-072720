@@ -13,9 +13,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def genre=(genre)
+  def brand=(brand)
     @genre = genre
-    GENRES << genre 
+    BRANDS << genre 
   end
 
 end
